@@ -5,9 +5,9 @@ from setuptools import setup, find_packages
 install_requires = [
     'boto3>=1.2.3,<2.0',
     'clint>0.5,<1.0',
-    'PyYAML>=3,<4.0',
+    'PyYAML>=3,<7.0',
     'troposphere>=1.6',
-    'Jinja2>=2.8,<3.0',
+    'Jinja2>=2.8,<4.0',
     'six>1.9,<2.0'
 ]
 
